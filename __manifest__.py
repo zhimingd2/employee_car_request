@@ -3,7 +3,7 @@
     'name': "Employee Car Request",
 
     'summary': """
-        Request a car""",
+        Request a car from Zhiming Test""",
 
     'description': """
         Long description of module's purpose
