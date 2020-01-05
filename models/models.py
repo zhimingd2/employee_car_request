@@ -4,6 +4,7 @@ from odoo import models, fields, api
 
 class CarRequest(models.Model):
     _name = "car.request" #Table in DB
+    _inherit = ['mail.thread']
     _description = "Car Request"
 
     name = fields.Char(string="Request", request=True)
@@ -14,7 +15,7 @@ class CarRequest(models.Model):
     car_id= fields.Many2one(comodel_name="fleet.vehicle", string="Car", required=True)
 
     state = fields.Selection(string="Status", selection=[('draft','Draft'),('confirm','Confirm'),('validate','Validated'),
-                            ('refuse','Refulse'),('approved','Approved')],default="draft")
+                            ('refuse','Refulse'),('approved','Approved')],default="draft", track_visibility='onchange')
 
     @api.multi
     def confirm_request(self):
