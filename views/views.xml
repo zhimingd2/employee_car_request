@@ -6,6 +6,10 @@
       <field name="arch" type="xml">
           <form name="Car Request Form">
               <header>
+                  <button name="confirm_request" string="Confirm" class="oe_highligh" states="draft" type="object" />
+                  <button name="validate_request" string="Validate" class="oe_highligh" states="confirm" type="object" />
+                  <button name="approve_request" string="Approve" class="oe_highligh" states="validate" type="object" />
+                  <button name="refuse_request" string="Refuse" states="validate,confirm" type="object" />
                   <field name="state" widget="statusbar" statusbar_visible="draft,confirm,validate" ></field>
               </header>
               <sheet>
@@ -14,7 +18,7 @@
                       <h1>
                           <field name="name" placeholder="Request"/>
                       </h1>
-"                 </div>
+                 </div>
                   <group>
                       <group>
                           <field name="date_from" />
