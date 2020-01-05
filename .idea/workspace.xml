@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691fbcf2-71f9-4f95-9f82-d08b3834c4b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/views.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2341" y="282" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578199440614">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2341" y="282" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.23.1890.1057/1920.23.1920.1057@1920.23.1920.1057" timestamp="1578199440614" />
     <state x="2453" y="177" key="SettingsEditor" timestamp="1578194451532">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>

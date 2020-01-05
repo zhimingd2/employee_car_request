@@ -5,6 +5,9 @@
       <field name="model">car.request</field>
       <field name="arch" type="xml">
           <form name="Car Request Form">
+              <header>
+                  <field name="state" widget="statusbar" statusbar_visible="draft,confirm,validate" ></field>
+              </header>
               <sheet>
                   <div class="oe_title">
                       <label for="name" class="oe_edit_only"/>

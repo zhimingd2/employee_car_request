@@ -12,3 +12,6 @@ class CarRequest(models.Model):
 
     employee_id = fields.Many2one(comodel_name="hr.employee", string="Employee", required=True)
     car_id= fields.Many2one(comodel_name="fleet.vehicle", string="Car", required=True)
+
+    state = fields.Selection(string="Status", selection=[('draft','Draft'),('confirm','Confirm'),('validate','Validated'), ('refuse','Refulse'),('approved','Approved')],
+                             default="draft")
