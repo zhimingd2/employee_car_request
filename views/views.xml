@@ -55,7 +55,7 @@
     <menuitem name="Car Request" id="menu_car_request_categ" parent="menu_car_reuest_root" sequence="1"/>
     <!-- actions -->
     <menuitem name="Car Request" id="menu_car_request_action" parent="menu_car_reuest_root"
-              action="action_car_request_views"/>
+              action="action_car_request_views" sequence="1"/>
     <!-- explicit list view definition -->
     <!--kkkkkkk
     <record model="ir.ui.view" id="ztest.list">
