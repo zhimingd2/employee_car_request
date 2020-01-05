@@ -50,8 +50,8 @@
       </field>
     </record>
     <menuitem name="Car Request" id="menu_car_reuest_root" sequence="10"/>
-    <menuitem name="Car Request" id="menu_car_request_categ" parent="menu_car_reuest_root" sequence="1"/>
-    <menuitem name="Car Request" id="menu_car_request_action" parent="menu_car_request_categ"
+    <menuitem name="Home" id="menu_car_request_categ" parent="menu_car_reuest_root" sequence="1"/>
+    <menuitem name="Make a Request" id="menu_car_request_action" parent="menu_car_request_categ"
               action="action_car_request_views" sequence="1"/>
   </data>
 </odoo>
