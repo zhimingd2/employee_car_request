@@ -7,7 +7,7 @@ class CarRequest(models.Model):
     _description = "Car Request"
 
     name = fields.Char(string="Request", request=True)
-    date_form = fields.Datetime(string="Staring Date", default=fields.Datetime.now())
+    date_from = fields.Datetime(string="Staring Date", default=fields.Datetime.now())
     date_to = fields.Datetime(string="End Date", required=False)
 
     employee_id = fields.Many2one(comodel_name="hr.employee", string="Employee", required=True)
