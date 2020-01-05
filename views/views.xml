@@ -36,6 +36,7 @@
               <field name="car_id"/>
               <field name="date_from"/>
               <field name="date_to"/>
+          </tree>
       </field>
     </record>
     <record model="ir.actions.act_window" id="action_car_request_views">
