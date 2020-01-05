@@ -44,8 +44,10 @@
       <field name="type">ir.actions.act_window</field>
       <field name="res_model">ztest.ztest</field>
       <field name="view_mode">tree,form</field>
-        <p class="oe_view_nocontent_create"> Car Request</p>
-        <p> Request</p>
+      <field name="help" type="html">
+          <p class="oe_view_nocontent_create"> Car Request</p>
+          <p> Request</p>
+      </field>
     </record>
     <menuitem name="Car Request" id="menu_car_reuest_root" sequence="10"/>
     <menuitem name="Car Request" id="menu_car_request_categ" parent="menu_car_reuest_root" sequence="1"/>
